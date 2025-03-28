@@ -24,10 +24,10 @@ const Footer = () => {
             <p className='col-span-2 text-[16px] lg:text-[20px] text-right'>Follow Us:</p>
             <div className="col-span-1"></div>
             <div className="col-span-7 flex">
-              <img src="/src/assets/Others/facebook.svg" alt="" className='size-[50%] flex ' />
-              <img src="/src/assets/Others/instagram.svg" alt="" className='size-[50%] flex ' />
-              <img src="/src/assets/Others/x.svg" alt="" className='size-[50%] flex ' />
-              <img src="/src/assets/Others/linkedin.svg" alt="" className='size-[50%] flex ' />
+              <img src="/src/assets/Others/facebook.svg" alt="" className='size-[50%]' />
+              <img src="/src/assets/Others/instagram.svg" alt="" className='size-[50%]' />
+              <img src="/src/assets/Others/x.svg" alt="" className='size-[50%]' />
+              <img src="/src/assets/Others/linkedin.svg" alt="" className='size-[50%]' />
             </div>
           </div>
         </div>
