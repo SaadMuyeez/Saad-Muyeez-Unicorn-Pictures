@@ -7,32 +7,29 @@ import { MdNorthEast } from "react-icons/md";
 
 const About = () => {
     return (
-        <div id='About' className="">
-            <div className=""></div>
-            <div className="relative">
-                <img src={Unicorn} alt="" />
-                <div style={{ top: 40, left: 500 }} className="flex absolute">
-                    <div className="relative">
-                        <img src={yellowMoon} alt="" />
-                        <p style={{ top: '35%', left: 50 }} className='absolute text-[17px] font-Poppins-thin'>
-                            <div style={{ margin:'' }} className="relative">
+        <div id="About">
+            <div className="">
+                <div className="h-[92%] relative flex justify-center items-center">
+                    <img src={Unicorn} alt="" />
+                    <div className="absolute h-[inherit] lg:left-[27%] md:left-[26%] left-[25%]">
+                        <img src={yellowMoon} alt="" className='h-[inherit]' />
+                        <p className='absolute w-[60%] text-[4px] top-[30%] left-[3%] lg:text-[13px] lg:top-[33%] lg:left-[5%] md:text-[9px] md:top-[32%] md:left-[3%] font-Poppins-thin'>
+                            <div style={{ margin: '' }} className="relative">
                                 <MdNorthEast />
                             </div>
-                            The Unicorn Pictures <br /> crafts magical visual <br /> experiences through <br /> innovative storytelling.
+                            The Unicorn Pictures crafts magical visual experiences through innovative storytelling.
                         </p>
-                        <div style={{ top: '0', right: '-240px' }} className="absolute">
-                            <img src={photoAnimal} alt="" />
-                            <div style={{ top: '5px', right: '-336px' }} className="absolute">
-                                <img src={photographer} alt="" />
-                            </div>
-                            <div style={{ top: 150, left: 30 }} className="absolute flex justify-center items-center gap-12">
-                                <h1 className='text-[96px]'>Unicorn</h1>
-                                <div className="flex justify-center items-center gap-4">
-                                    <button style={{ margin: '25px 0 0 0' }} className='text-[13px] w-28 h-8 bg-white rounded-2xl text-black'>Learn More</button>
-                                    <div style={{ margin: '25px 0 0 0' }} className="">
-                                        <MdNorthEast />
-                                    </div>
-                                </div>
+                    </div>
+                    <div className="absolute h-[inherit] lg:left-[41%] md:left-[40%] left-[39%]">
+                        <img src={photoAnimal} alt="" className='h-[inherit]' />
+                        <h1 className='absolute text-[22px] top-[27%] lg:text-[72px] lg:top-[29%] lg:left-[6%] md:text-[39px] md:top-[34%] md:left-[4%] z-50'>Unicorn</h1>
+                    </div>
+                    <div className="absolute h-[inherit] lg:left-[54%] md:left-[53%] left-[52%]">
+                        <img src={photographer} alt="" className='h-[inherit]' />
+                        <div className="flex justify-center items-center gap-4">
+                            <button className='absolute w-10 h-4 top-[38%] right-[13%] text-[6px] lg:w-28 lg:h-8 bg-white rounded-2xl text-black lg:top-[42%] lg:right-[24%] md:top-[40%] md:right-[20%] md:w-28 md:h-8'>Learn More</button>
+                            <div className="absolute text-white top-[40%] right-[-2%] lg:top-[44%] lg:right-[16%] md:top-[43%] md:right-[10%]">
+                                <MdNorthEast />
                             </div>
                         </div>
                     </div>
@@ -43,7 +40,7 @@ const About = () => {
                     style={{ margin: "0 100px" }}
                     className="max-h-[72px] overflow-hidden text-ellipsis whitespace-pre-wrap scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 hover:overflow-auto"
                 >
-                    <p className='text-[17px] font-Poppins-thin text-center'>
+                    <p className='text-[10px] md:text-[17px] font-Poppins-thin text-center'>
                         The Unicorn Pictures Private Limited, incorporated in the year 2017
                         as a Private Limited Company registered with Registrar of Companies.
                         The registered office of the Company is situated in <br /> No. 96, 2nd Floor,
@@ -68,17 +65,3 @@ const About = () => {
 }
 
 export default About
-
-//     < div className = 'relative' >
-//             <img src={Unicorn} alt="Unicorn" />
-//             <div className="flex justify-center items-center w-[100%] absolute top-0">
-//                 <img src={yellowMoon} alt="Yellow Moon" className='left-0' />
-//                 <img src={photoAnimal} alt="Photo Animal" className='mx-auto' />
-//                 <img src={photographer} alt="Photographer" className='right-0' />
-//             </div>
-// {/* <div className="flex absolute top-0">
-//                 <img src={yellowMoon} alt="Yellow Moon" className='left-0' />
-//                 <img src={photoAnimal} alt="Photo Animal" className='mx-auto' />
-//                 <img src={photographer} alt="Photographer" className='right-0' />
-//             </div> */}
-//         </ >
