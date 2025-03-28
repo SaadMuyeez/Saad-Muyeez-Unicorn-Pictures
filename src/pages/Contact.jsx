@@ -4,12 +4,12 @@ import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div id='Contact' style={{margin:'0 0 20px 0'}} className='flex flex-col md:flex-row bg-[#100808] w-screen'>
         <div className="md:w-[50vw]">
           <img src={businessWomen} alt="" className='w-full h-full' />
         </div>
-        <div className="flex flex-col justify-center items-center lg:w-[50vw]">
+        <div className="flex flex-col justify-center items-center md:w-[50vw]">
           <form className="w-1/2 md:w-[36vw]">
             <h1 className='text-[28px] md:text-[80px] font-bold font-Poppins'>Contact Us</h1>
             <p style={{ margin: '0 0 32px 0' }} className='text-[16px] md:text-[23px] text-[#D6B962] pb-4 font-Rubik'>Reach out and let’s start a conversation</p>
